@@ -1,0 +1,30 @@
+﻿{
+  "CreationDate": "2018-5-10",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "http://songs-by-sinatra.herokuapp.com/about",
+      "Value": ""
+    },
+    {
+      "Command": "waitForPageToLoad",
+      "Target": "",
+      "Value": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "css=body > header > h1",
+      "Value": "Songs By Sinatra"
+    },
+    {
+      "Command": "verifyText",
+      "Target": "css=body > section > p",
+      "Value": "This site is a demonstration of how to build a website using Sinatra."
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "link=log in ",
+      "Value": ""
+    }
+  ]
+}
