@@ -15,6 +15,26 @@
       "Command": "clickAndWait",
       "Target": "link=About",
       "Value": ""
+    },
+    {
+      "Command": "assertElementPresent",
+      "Target": "link=Contact",
+      "Value": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "link=Contact",
+      "Value": ""
+    },
+    {
+      "Command": "assertElementPresent",
+      "Target": "link=Songs",
+      "Value": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "link=Songs",
+      "Value": ""
     }
   ]
 }
