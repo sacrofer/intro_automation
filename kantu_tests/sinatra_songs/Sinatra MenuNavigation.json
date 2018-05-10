@@ -1,0 +1,20 @@
+﻿{
+  "CreationDate": "2018-5-10",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "http://songs-by-sinatra.herokuapp.com/",
+      "Value": ""
+    },
+    {
+      "Command": "assertElementPresent",
+      "Target": "link=About",
+      "Value": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "link=About",
+      "Value": ""
+    }
+  ]
+}
