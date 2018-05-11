@@ -53,6 +53,11 @@
     },
     {
       "Command": "verifyElementPresent",
+      "Target": "//*[@value='Send Message']",
+      "Value": ""
+    },
+    {
+      "Command": "verifyElementPresent",
       "Target": "link=log in ",
       "Value": ""
     }
