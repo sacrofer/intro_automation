@@ -18,8 +18,8 @@
     },
     {
       "Command": "verifyText",
-      "Target": "//p[@'Welcome to this website all about the songs of the great Frank Sinatra']",
-      "Value": ""
+      "Target": "//p",
+      "Value": "Welcome to this website all about the songs of the great Frank Sinatra"
     },
     {
       "Command": "verifyElementPresent",
