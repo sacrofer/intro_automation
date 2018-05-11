@@ -1,0 +1,60 @@
+﻿{
+  "CreationDate": "2018-5-10",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "http://songs-by-sinatra.herokuapp.com/contact",
+      "Value": ""
+    },
+    {
+      "Command": "waitForPageToLoad",
+      "Target": "",
+      "Value": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "css=body > header > h1",
+      "Value": "Songs By Sinatra"
+    },
+    {
+      "Command": "verifyText",
+      "Target": "css=body > section > p",
+      "Value": "You can contact me by filling in the form below:"
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "css=body > section > form > label:nth-child(1)",
+      "Value": "Name:"
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "name=name",
+      "Value": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "name=email",
+      "Value": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "css=body > section > form > label:nth-child(5)",
+      "Value": "Your Message:"
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "name=message",
+      "Value": "Your Message:"
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "css=body > section > form > input:nth-child(7)",
+      "Value": "Your Message:"
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "link=log in ",
+      "Value": ""
+    }
+  ]
+}
