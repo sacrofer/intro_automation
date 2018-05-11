@@ -23,7 +23,7 @@
     },
     {
       "Command": "verifyElementPresent",
-      "Target": "css=body > section > img",
+      "Target": "//img[@src='/images/sinatra.jpg']",
       "Value": "/images/sinatra.jpg"
     },
     {
