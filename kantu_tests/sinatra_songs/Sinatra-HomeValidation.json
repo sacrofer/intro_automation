@@ -13,13 +13,13 @@
     },
     {
       "Command": "verifyElementPresent",
-      "Target": "css=body > header > h1",
-      "Value": "Songs By Sinatra"
+      "Target": "//h1['Songs By Sinatra']",
+      "Value": ""
     },
     {
       "Command": "verifyText",
-      "Target": "css=body > section > p",
-      "Value": "Welcome to this website all about the songs of the great Frank Sinatra"
+      "Target": "//p[@'Welcome to this website all about the songs of the great Frank Sinatra']",
+      "Value": ""
     },
     {
       "Command": "verifyElementPresent",
